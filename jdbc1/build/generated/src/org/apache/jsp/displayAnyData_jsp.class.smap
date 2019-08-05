@@ -1,0 +1,19 @@
+SMAP
+displayAnyData_jsp.java
+JSP
+*S JSP
+*F
++ 0 displayAnyData.jsp
+displayAnyData.jsp
+*L
+5,6:50
+10,5:11
+14,11:55
+25,11:67
+35:78
+36,3:79,3
+39:88
+39:88,2
+40,12:90
+51,5:102
+*E

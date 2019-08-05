@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Multi servlet with multi buttons</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            Enter first number <input type ="number" name ="p1">
+            Enter second number <input type ="number" name ="p2"></br>
+             
+            <input type ="submit" name ="addSubmit" formaction ="Servlet1" formmethod="post" value ="Add" > </br>
+            <input type ="submit" name ="subSubmit" formaction ="Servlet2" formmethod="get" value ="Subtract" > </br>
+            <input type ="submit" name ="mulSubmit" formaction ="Servlet3" formmethod="post" value ="Multiply" ></br>
+        </form>
+    </body>
+</html>

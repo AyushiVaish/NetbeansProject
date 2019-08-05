@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JSP PAGE FOR REGISTRATION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <form method ="POST" action="Vaidation.jsp"> 
+            <b>
+              
+                First Name: <input type="text" name="firstname"> <br/>
+                Last Name : <input type="text" name ="lastname"> <br/>
+                Address : <input type="text" name ="addr"></br>
+                Zip Code : <input type="text" name ="zip"> </br>
+                State : <select name ="state">
+                    
+                    <option>Please Choose</option>
+                    <option > Uttrakhand </option>
+                    <option>New Delhi </option>
+                    <option > Mumbai </option>
+                    
+                </select><br/>
+                Username(6-8 characters) : <input type ="text" name ="username"> <br/>
+                Email :<input type="text" name ="email" > <br/>
+                <input type ="submit" value ="Display">
+            </b>
+         
+        </form>
+       
+    </center>
+    </body>
+</html>
